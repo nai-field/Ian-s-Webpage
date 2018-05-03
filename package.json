@@ -1,0 +1,20 @@
+{
+  "name": "pkats-smarthome",
+  "version": "1.0.0",
+  "description": "Working Project for Arduino Interface",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Philip Katterjohn",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "express": "^4.16.3",
+    "johnny-five": "^0.9.58",
+    "pubnub": "^3.16.5",
+    "vue": "^2.5.16",
+    "vuetify": "^1.0.17"
+  }
+}
