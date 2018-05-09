@@ -60,11 +60,11 @@ app.get('/smarthome/sensors', function(req,res){
 });
 
 //Start Server
-var server = app.listen(process.env.PORT || 3000, function() {
+var server = app.listen(process.env.PORT || 8080, function() {
         if(process.env.PORT != null) {
 	        logger('Express is listening to ' + process.env.PORT);
 	} else {
-	        logger('Express is listening to http://localhost:3000');
+	        logger('Express is listening to http://localhost:8080');
 	}
 });
 

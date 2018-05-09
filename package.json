@@ -1,16 +1,16 @@
 {
-  "name": "pkats-smarthome",
+  "name": "ians-web-203020",
   "version": "1.0.0",
-  "description": "Working Project for Arduino Interface",
+  "description": "My website for fun",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
-  "author": "Philip Katterjohn",
+  "author": "Ian Field",
   "license": "MIT",
   "dependencies": {
-    "ejs": "^1.0.0",
+    "ejs": "^2.5.5",
     "express": "^4.16.3",
     "johnny-five": "^0.9.58",
     "pubnub": "^3.16.5",
