@@ -18,10 +18,10 @@ app.get('/about', function(req,res){
 });
 
 //Projects
-app.get('/projects', function(req,res){
-	res.render('pages/projects');
+app.get('/Menu', function(req,res){
+	res.render('menu_tabs');
 });
-
+/*
 app.get('/projects/hyperloop', function(req,res){
 	res.render('pages/projects/hyperloop');
 });
@@ -41,23 +41,7 @@ app.get('/projects/locolab', function(req,res){
 app.get('/projects/senior', function(req,res){
 	res.render('pages/projects/senior');
 });
-
-//Smarthome
-app.get('/smarthome', function(req,res){
-	res.render('pages/smarthome');
-});
-
-app.get('/smarthome/rgb', function(req,res){
-	res.render('pages/smarthome/rgb');
-});
-
-app.get('/smarthome/led', function(req,res){
-	res.render('pages/smarthome/led');
-});
-
-app.get('/smarthome/sensors', function(req,res){
-	res.render('pages/smarthome/sensors');
-});
+*/
 
 //Start Server
 var server = app.listen(process.env.PORT || 8080, function() {
