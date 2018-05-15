@@ -18,10 +18,10 @@ app.get('/about', function(req,res){
 });
 
 //Projects
-app.get('/Menu', function(req,res){
+/*app.get('/Menu', function(req,res){
 	res.render('menu_tabs');
 });
-/*
+
 app.get('/projects/hyperloop', function(req,res){
 	res.render('pages/projects/hyperloop');
 });
