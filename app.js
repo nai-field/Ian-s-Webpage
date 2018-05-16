@@ -9,16 +9,16 @@ app.set('view engine', 'ejs');
 
 //Homepage
 app.get('/', function(req,res){
-	res.render('pages/index');
+	res.render('Menu/menu_tabs');
 });
 
 //About Page
-app.get('/about', function(req,res){
+/*app.get('/about', function(req,res){
 	res.render('pages/about');
 });
 
 //Projects
-/*app.get('/Menu', function(req,res){
+app.get('/Menu', function(req,res){
 	res.render('menu_tabs');
 });
 
