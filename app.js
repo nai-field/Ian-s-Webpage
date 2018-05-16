@@ -9,7 +9,7 @@ app.set('view engine', 'ejs');
 
 //Homepage
 app.get('/', function(req,res){
-	res.render('Menu/menu_tabs');
+	res.render('pages/Home');
 });
 
 //About Page
