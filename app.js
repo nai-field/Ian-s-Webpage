@@ -12,14 +12,11 @@ app.get('/', function(req,res){
 	res.render('pages/Home');
 });
 
-//About Page
-/*app.get('/about', function(req,res){
-	res.render('pages/about');
-});
+
 
 //Projects
-app.get('/Menu', function(req,res){
-	res.render('menu_tabs');
+app.get('/projects/3dprinting', function(req,res){
+	res.render('pages/projects/3dprinting');
 });
 
 app.get('/projects/hyperloop', function(req,res){
@@ -30,18 +27,18 @@ app.get('/projects/cansat', function(req,res){
 	res.render('pages/projects/cansat');
 });
 
-app.get('/projects/dbproj', function(req,res){
-	res.render('pages/projects/dbproj');
+app.get('/projects/drone', function(req,res){
+	res.render('pages/projects/drone');
 });
 
-app.get('/projects/locolab', function(req,res){
-	res.render('pages/projects/locolab');
+app.get('/projects/audiosynthesizer', function(req,res){
+	res.render('pages/projects/audiosynthesizer');
 });
 
 app.get('/projects/senior', function(req,res){
 	res.render('pages/projects/senior');
 });
-*/
+
 
 //Start Server
 var server = app.listen(process.env.PORT || 8080, function() {
